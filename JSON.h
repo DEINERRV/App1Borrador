@@ -1,13 +1,11 @@
-#ifndef UNTITLED3_JSON_H
-#define UNTITLED3_JSON_H
+#ifndef UNTITLED4_JSON_H
+#define UNTITLED4_JSON_H
+#include "ILoad.h"
 
-#include "ISave.h"
-
-class JSON:public ISave {
+class JSON: public ILoad{
 public:
-    void save(vector<PacienteAnalizado>) override;
+    vector<PacienteAnalizado> Load() override;
 };
 
 
-
-#endif //UNTITLED3_JSON_H
+#endif //UNTITLED4_JSON_H

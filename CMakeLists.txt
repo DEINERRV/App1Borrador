@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.17)
-project(untitled3)
+project(untitled4)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(untitled3 main.cpp Paciente.cpp Paciente.h Enfermedad.cpp Enfermedad.h EnfermedadConteo.h PacienteAnalizado.cpp PacienteAnalizado.h PreAnalisis.cpp PreAnalisis.h ILoad.cpp ILoad.h ISave.cpp ISave.h CSV.cpp CSV.h JSON.cpp JSON.h PacientesManager.cpp PacientesManager.h EnfermedadesManager.cpp EnfermedadesManager.h PacientesAnalizadosManager.cpp PacientesAnalizadosManager.h App1Facade.cpp App1Facade.h Menu.cpp Menu.h)
+add_executable(untitled4 main.cpp Paciente.cpp Paciente.h Enfermedad.cpp Enfermedad.h EnfermedadConteo.h ISave.cpp ISave.h PacienteAnalizado.cpp PacienteAnalizado.h ILoad.cpp ILoad.h JSON.cpp JSON.h Binario.cpp Binario.h Analisis.cpp Analisis.h Analisis1.cpp Analisis1.h Analisis2.cpp Analisis2.h Analisis3.cpp Analisis3.h App2Facade.cpp App2Facade.h PacienteAnalizadoManager.cpp PacienteAnalizadoManager.h EnfermedadPacientes.cpp EnfermedadPacientes.h)

@@ -1,5 +1,6 @@
-#ifndef UNTITLED3_ENFERMEDADCONTEO_H
-#define UNTITLED3_ENFERMEDADCONTEO_H
+#ifndef UNTITLED4_ENFERMEDADCONTEO_H
+#define UNTITLED4_ENFERMEDADCONTEO_H
+
 #include "Enfermedad.h"
 
 struct EnfermedadConteo {
@@ -7,5 +8,4 @@ struct EnfermedadConteo {
     int cantidad;
 };
 
-
-#endif //UNTITLED3_ENFERMEDADCONTEO_H
+#endif //UNTITLED4_ENFERMEDADCONTEO_H

@@ -7,33 +7,6 @@ using namespace std;
 using json=nlohmann::json;
 
 
-void to_json(json &_json, const PacienteAnalizado &_paciente) {
-    json jEnfermedades;
-    auto jEnfermedadesList=json::array();
-
-    PacienteAnalizado p=_paciente;
-
-
-    for (EnfermedadConteo aux : p.getEnfermedades())
-    {
-        jEnfermedades["nombre"]="enfermedad";
-        //jEnfermedades["nombre"]=aux.enfermedad.getNombre();
-        jEnfermedades["secuencia"]=aux.enfermedad.getAdn();
-        jEnfermedades["cantidad"]=aux.cantidad;
-        jEnfermedadesList.push_back(jEnfermedades);
-    }
-
-    _json = json{
-            {"id",p.getPaciente().getId()},
-            {"nombre",p.getPaciente().getNombre()},
-            {"numero",p.getPaciente().getNumero()},
-            {"correo",p.getPaciente().getCorreo()},
-            {"adn",p.getPaciente().getAdn()},
-            {"enfermedades",jEnfermedadesList},
-
-    };
-}
-
 void from_json(const json &_json, PacienteAnalizado &_paciente) {
     vector<EnfermedadConteo> enfermedadesList;
     json enfermedadesData = _json["enfermedades"];
@@ -56,22 +29,30 @@ void from_json(const json &_json, PacienteAnalizado &_paciente) {
     _paciente.setEnfermedades(enfermedadesList);
 }
 
+vector<PacienteAnalizado> JSON::Load() {
+    ifstream archivo;
 
-
-void JSON::save(vector<PacienteAnalizado> pacientes) {
-    ofstream archivo;
-
-    try { archivo.open("PacientesAnalizados.json", ios::binary); }
+    try { archivo.open("C:\\Users\\deine\\Desktop\\Proyectos_C++_CLion\\progra2-project-02-delta\\cmake-build-debug-mingw\\src\\datos_geneticos.json", ios::binary); }
 
     catch (ifstream::failure a) {
         cout << "no se pudo abrir el archivo";
         exit(1);
     }
 
-    json JsonData(pacientes);
-    string Serializacion=JsonData.dump();
+    string datos;
 
-    archivo << Serializacion << '\n';
+    stringstream buffer;
+    buffer << archivo.rdbuf();
+    std::string fileContent(buffer.str());
+    datos = fileContent;
+
+
+    json j=json::parse(datos);
 
     archivo.close();
+
+    vector<PacienteAnalizado> pacientesAnalizados=j;
+    pacientesAnalizados.pop_back();
+
+    return pacientesAnalizados;
 }

@@ -1,37 +1,47 @@
-#ifndef UNTITLED3_PACIENTE_H
-#define UNTITLED3_PACIENTE_H
+#ifndef UNTITLED4_PACIENTE_H
+#define UNTITLED4_PACIENTE_H
 
 #include<iostream>
 using namespace std;
 
 class Paciente {
 private:
-    string nombre;
-    string id;
-    string correo;
-    string numero;
-    string adn;
+    char nombre[40];
+    char id[15];
+    char correo[50];
+    char numero[15];
+    char adn[2000];
 
 public:
     Paciente();
     Paciente(string nom,string idd,string num,string correoo,string adnn);
     void toString();
 
-    const string &getNombre() const;
-    void setNombre(const string &nombre);
 
-    const string &getId() const;
-    void setId(const string &id);
+    void setNombre(string);
 
-    const string &getCorreo() const;
-    void setCorreo(const string &correo);
 
-    const string &getNumero() const;
-    void setNumero(const string &numero);
+    void setId(string);
 
-    const string &getAdn() const;
-    void setAdn(const string &adn);
+    const char *getNombre() const;
+
+    const char *getId() const;
+
+    const char *getCorreo() const;
+
+    const char *getNumero() const;
+
+    const char *getAdn() const;
+
+    void setCorreo(string);
+
+
+    void setNumero(string);
+
+
+    void setAdn(string);
+
 };
 
 
-#endif //UNTITLED3_PACIENTE_H
+#endif //UNTITLED4_PACIENTE_H

@@ -1,5 +1,5 @@
-#ifndef UNTITLED3_ENFERMEDAD_H
-#define UNTITLED3_ENFERMEDAD_H
+#ifndef UNTITLED4_ENFERMEDAD_H
+#define UNTITLED4_ENFERMEDAD_H
 
 #include<iostream>
 using namespace std;
@@ -7,8 +7,8 @@ using namespace std;
 
 class Enfermedad {
 private:
-    string nombre;
-    string adn;
+    char nombre[40];
+    char adn[10];
 
 public:
     Enfermedad();
@@ -16,11 +16,14 @@ public:
 
     void toString();
 
-    const string &getNombre() const;
-    void setNombre(const string &nombre);
 
-    const string &getAdn() const;
-    void setAdn(const string &adn);
+    void setNombre(string);
+
+    const char *getNombre() const;
+
+    const char *getAdn() const;
+
+    void setAdn(string);
 };
 
-#endif //UNTITLED3_ENFERMEDAD_H
+#endif //UNTITLED4_ENFERMEDAD_H

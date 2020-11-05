@@ -30,5 +30,11 @@ string PacienteAnalizado::toString() {
     s<<"Correo: "<<paciente.getCorreo()<<endl;
     s<<"ADN: "<<paciente.getAdn()<<endl<<endl;
 
+    for(EnfermedadConteo aux : enfermedades){
+        s<<"enfermedad: "<<aux.enfermedad.getNombre()<<endl;
+        s<<"secuencia: "<<aux.enfermedad.getAdn()<<endl;
+        s<<"cantidad"<<aux.cantidad<<endl<<endl;
+    }
+
     return s.str();
 }

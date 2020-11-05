@@ -1,11 +1,11 @@
 #include "Enfermedad.h"
-
+#include "string.h"
 
 Enfermedad::Enfermedad() { }
 
 Enfermedad::Enfermedad(string nom, string adnn) {
-    nombre=nom;
-    adn=adnn;
+   strcpy(nombre,nom.c_str());
+   strcpy(adn,adnn.c_str());
 }
 
 void Enfermedad::toString() {
@@ -13,18 +13,19 @@ void Enfermedad::toString() {
     cout<<"ADN: "<<adn<<endl;
 }
 
-const string &Enfermedad::getNombre() const {
+
+void Enfermedad::setNombre(string _nombre) {
+    strcpy(nombre,_nombre.c_str());
+}
+
+void Enfermedad::setAdn(string _adn) {
+    strcpy(adn,_adn.c_str());
+}
+
+const char *Enfermedad::getNombre() const {
     return nombre;
 }
 
-void Enfermedad::setNombre(const string &nombre) {
-    Enfermedad::nombre = nombre;
-}
-
-const string &Enfermedad::getAdn() const {
+const char *Enfermedad::getAdn() const {
     return adn;
-}
-
-void Enfermedad::setAdn(const string &adn) {
-    Enfermedad::adn = adn;
 }
