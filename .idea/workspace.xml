@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="untitled4" targetName="untitled4" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="47592c79-41aa-4373-9b41-57fe3562c752" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="ProjectId" id="1jiF5uz8NNri9dwmMk3nWxjagIv" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\deine\Desktop\Proyectos_C++_CLion\untitled4" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="untitled4" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="untitled4" TARGET_NAME="untitled4" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="untitled4" RUN_TARGET_NAME="untitled4">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="WindowStateProjectService">
+    <state x="718" y="186" key="#com.intellij.ide.util.MemberChooser" timestamp="1604538634606">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="718" y="186" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1604538634606" />
+    <state width="1865" height="228" key="GridCell.Tab.0.bottom" timestamp="1604542474931">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1865" height="228" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1604542474931" />
+    <state width="1865" height="228" key="GridCell.Tab.0.center" timestamp="1604542474930">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1865" height="228" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1604542474930" />
+    <state width="1865" height="228" key="GridCell.Tab.0.left" timestamp="1604542474930">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1865" height="228" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1604542474930" />
+    <state width="1865" height="228" key="GridCell.Tab.0.right" timestamp="1604542474930">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1865" height="228" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1604542474930" />
+    <state width="1865" height="347" key="GridCell.Tab.1.bottom" timestamp="1604291359395">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1865" height="347" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1604291359395" />
+    <state width="1865" height="347" key="GridCell.Tab.1.center" timestamp="1604291359395">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1865" height="347" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1604291359395" />
+    <state width="1865" height="347" key="GridCell.Tab.1.left" timestamp="1604291359395">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1865" height="347" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1604291359395" />
+    <state width="1865" height="347" key="GridCell.Tab.1.right" timestamp="1604291359395">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1865" height="347" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1604291359395" />
+    <state x="92" y="92" width="1736" height="896" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1604436608899">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="92" y="92" width="1736" height="896" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1604436608899" />
+    <state x="92" y="92" width="1736" height="896" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1604442062576">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="92" y="92" width="1736" height="896" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1604442062576" />
+    <state x="0" y="0" width="1641" height="1056" key="dock-window-1" timestamp="1604453020494">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="0" y="0" width="1641" height="1056" key="dock-window-1/0.0.1920.1080@0.0.1920.1080" timestamp="1604453020494" />
+    <state x="547" y="45" width="840" height="1034" key="search.everywhere.popup" timestamp="1604446027128">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="547" y="45" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1604446027128" />
+  </component>
+</project>

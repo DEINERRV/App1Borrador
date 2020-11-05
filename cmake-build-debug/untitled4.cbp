@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="untitled4"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/deine/Desktop/Proyectos_C++_CLion/untitled4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/deine/Desktop/Proyectos_C++_CLion/untitled4/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/deine/Desktop/Proyectos_C++_CLion/untitled4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/deine/Desktop/Proyectos_C++_CLion/untitled4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/deine/Desktop/Proyectos_C++_CLion/untitled4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="untitled4">
+				<Option output="C:/Users/deine/Desktop/Proyectos_C++_CLion/untitled4/cmake-build-debug/untitled4.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/deine/Desktop/Proyectos_C++_CLion/untitled4/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/deine/Desktop/Proyectos_C++_CLion/untitled4/cmake-build-debug/Makefile&quot;  VERBOSE=1 untitled4"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/deine/Desktop/Proyectos_C++_CLion/untitled4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/deine/Desktop/Proyectos_C++_CLion/untitled4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/deine/Desktop/Proyectos_C++_CLion/untitled4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="untitled4/fast">
+				<Option output="C:/Users/deine/Desktop/Proyectos_C++_CLion/untitled4/cmake-build-debug/untitled4.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/deine/Desktop/Proyectos_C++_CLion/untitled4/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/deine/Desktop/Proyectos_C++_CLion/untitled4/cmake-build-debug/Makefile&quot;  VERBOSE=1 untitled4/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/deine/Desktop/Proyectos_C++_CLion/untitled4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/deine/Desktop/Proyectos_C++_CLion/untitled4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/deine/Desktop/Proyectos_C++_CLion/untitled4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/deine/Desktop/Proyectos_C++_CLion/untitled4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/deine/Desktop/Proyectos_C++_CLion/untitled4/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/deine/Desktop/Proyectos_C++_CLion/untitled4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/deine/Desktop/Proyectos_C++_CLion/untitled4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/deine/Desktop/Proyectos_C++_CLion/untitled4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/deine/Desktop/Proyectos_C++_CLion/untitled4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/deine/Desktop/Proyectos_C++_CLion/untitled4/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/deine/Desktop/Proyectos_C++_CLion/untitled4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/deine/Desktop/Proyectos_C++_CLion/untitled4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/deine/Desktop/Proyectos_C++_CLion/untitled4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/deine/Desktop/Proyectos_C++_CLion/untitled4/Analisis.cpp">
+			<Option target="untitled4"/>
+		</Unit>
+		<Unit filename="C:/Users/deine/Desktop/Proyectos_C++_CLion/untitled4/Analisis.h">
+			<Option target="untitled4"/>
+		</Unit>
+		<Unit filename="C:/Users/deine/Desktop/Proyectos_C++_CLion/untitled4/Analisis1.cpp">
+			<Option target="untitled4"/>
+		</Unit>
+		<Unit filename="C:/Users/deine/Desktop/Proyectos_C++_CLion/untitled4/Analisis1.h">
+			<Option target="untitled4"/>
+		</Unit>
+		<Unit filename="C:/Users/deine/Desktop/Proyectos_C++_CLion/untitled4/Analisis2.cpp">
+			<Option target="untitled4"/>
+		</Unit>
+		<Unit filename="C:/Users/deine/Desktop/Proyectos_C++_CLion/untitled4/Analisis2.h">
+			<Option target="untitled4"/>
+		</Unit>
+		<Unit filename="C:/Users/deine/Desktop/Proyectos_C++_CLion/untitled4/Analisis3.cpp">
+			<Option target="untitled4"/>
+		</Unit>
+		<Unit filename="C:/Users/deine/Desktop/Proyectos_C++_CLion/untitled4/Analisis3.h">
+			<Option target="untitled4"/>
+		</Unit>
+		<Unit filename="C:/Users/deine/Desktop/Proyectos_C++_CLion/untitled4/App2Facade.cpp">
+			<Option target="untitled4"/>
+		</Unit>
+		<Unit filename="C:/Users/deine/Desktop/Proyectos_C++_CLion/untitled4/App2Facade.h">
+			<Option target="untitled4"/>
+		</Unit>
+		<Unit filename="C:/Users/deine/Desktop/Proyectos_C++_CLion/untitled4/Binario.cpp">
+			<Option target="untitled4"/>
+		</Unit>
+		<Unit filename="C:/Users/deine/Desktop/Proyectos_C++_CLion/untitled4/Binario.h">
+			<Option target="untitled4"/>
+		</Unit>
+		<Unit filename="C:/Users/deine/Desktop/Proyectos_C++_CLion/untitled4/Enfermedad.cpp">
+			<Option target="untitled4"/>
+		</Unit>
+		<Unit filename="C:/Users/deine/Desktop/Proyectos_C++_CLion/untitled4/Enfermedad.h">
+			<Option target="untitled4"/>
+		</Unit>
+		<Unit filename="C:/Users/deine/Desktop/Proyectos_C++_CLion/untitled4/EnfermedadConteo.h">
+			<Option target="untitled4"/>
+		</Unit>
+		<Unit filename="C:/Users/deine/Desktop/Proyectos_C++_CLion/untitled4/EnfermedadPacientes.cpp">
+			<Option target="untitled4"/>
+		</Unit>
+		<Unit filename="C:/Users/deine/Desktop/Proyectos_C++_CLion/untitled4/EnfermedadPacientes.h">
+			<Option target="untitled4"/>
+		</Unit>
+		<Unit filename="C:/Users/deine/Desktop/Proyectos_C++_CLion/untitled4/ILoad.cpp">
+			<Option target="untitled4"/>
+		</Unit>
+		<Unit filename="C:/Users/deine/Desktop/Proyectos_C++_CLion/untitled4/ILoad.h">
+			<Option target="untitled4"/>
+		</Unit>
+		<Unit filename="C:/Users/deine/Desktop/Proyectos_C++_CLion/untitled4/ISave.cpp">
+			<Option target="untitled4"/>
+		</Unit>
+		<Unit filename="C:/Users/deine/Desktop/Proyectos_C++_CLion/untitled4/ISave.h">
+			<Option target="untitled4"/>
+		</Unit>
+		<Unit filename="C:/Users/deine/Desktop/Proyectos_C++_CLion/untitled4/JSON.cpp">
+			<Option target="untitled4"/>
+		</Unit>
+		<Unit filename="C:/Users/deine/Desktop/Proyectos_C++_CLion/untitled4/JSON.h">
+			<Option target="untitled4"/>
+		</Unit>
+		<Unit filename="C:/Users/deine/Desktop/Proyectos_C++_CLion/untitled4/Paciente.cpp">
+			<Option target="untitled4"/>
+		</Unit>
+		<Unit filename="C:/Users/deine/Desktop/Proyectos_C++_CLion/untitled4/Paciente.h">
+			<Option target="untitled4"/>
+		</Unit>
+		<Unit filename="C:/Users/deine/Desktop/Proyectos_C++_CLion/untitled4/PacienteAnalizado.cpp">
+			<Option target="untitled4"/>
+		</Unit>
+		<Unit filename="C:/Users/deine/Desktop/Proyectos_C++_CLion/untitled4/PacienteAnalizado.h">
+			<Option target="untitled4"/>
+		</Unit>
+		<Unit filename="C:/Users/deine/Desktop/Proyectos_C++_CLion/untitled4/PacienteAnalizadoManager.cpp">
+			<Option target="untitled4"/>
+		</Unit>
+		<Unit filename="C:/Users/deine/Desktop/Proyectos_C++_CLion/untitled4/PacienteAnalizadoManager.h">
+			<Option target="untitled4"/>
+		</Unit>
+		<Unit filename="C:/Users/deine/Desktop/Proyectos_C++_CLion/untitled4/main.cpp">
+			<Option target="untitled4"/>
+		</Unit>
+		<Unit filename="C:/Users/deine/Desktop/Proyectos_C++_CLion/untitled4/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
