@@ -67,10 +67,10 @@ RM = "C:\Program Files\JetBrains\CLion 2020.2\bin\cmake\win\bin\cmake.exe" -E rm
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\deine\Desktop\Proyectos_C++_CLion\untitled4
+CMAKE_SOURCE_DIR = C:\Users\deine\Desktop\Proyectos_C++_CLion\App1Borrador
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\deine\Desktop\Proyectos_C++_CLion\untitled4\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\deine\Desktop\Proyectos_C++_CLion\App1Borrador\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -99,9 +99,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\deine\Desktop\Proyectos_C++_CLion\untitled4\cmake-build-debug\CMakeFiles C:\Users\deine\Desktop\Proyectos_C++_CLion\untitled4\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\deine\Desktop\Proyectos_C++_CLion\App1Borrador\cmake-build-debug\CMakeFiles C:\Users\deine\Desktop\Proyectos_C++_CLion\App1Borrador\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\deine\Desktop\Proyectos_C++_CLion\untitled4\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\deine\Desktop\Proyectos_C++_CLion\App1Borrador\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -439,6 +439,33 @@ JSON.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled4.dir\build.make CMakeFiles/untitled4.dir/JSON.cpp.s
 .PHONY : JSON.cpp.s
 
+Menu.obj: Menu.cpp.obj
+
+.PHONY : Menu.obj
+
+# target to build an object file
+Menu.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled4.dir\build.make CMakeFiles/untitled4.dir/Menu.cpp.obj
+.PHONY : Menu.cpp.obj
+
+Menu.i: Menu.cpp.i
+
+.PHONY : Menu.i
+
+# target to preprocess a source file
+Menu.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled4.dir\build.make CMakeFiles/untitled4.dir/Menu.cpp.i
+.PHONY : Menu.cpp.i
+
+Menu.s: Menu.cpp.s
+
+.PHONY : Menu.s
+
+# target to generate assembly for a file
+Menu.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled4.dir\build.make CMakeFiles/untitled4.dir/Menu.cpp.s
+.PHONY : Menu.cpp.s
+
 Paciente.obj: Paciente.cpp.obj
 
 .PHONY : Paciente.obj
@@ -589,6 +616,9 @@ help:
 	@echo ... JSON.obj
 	@echo ... JSON.i
 	@echo ... JSON.s
+	@echo ... Menu.obj
+	@echo ... Menu.i
+	@echo ... Menu.s
 	@echo ... Paciente.obj
 	@echo ... Paciente.i
 	@echo ... Paciente.s

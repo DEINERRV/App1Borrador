@@ -63,10 +63,10 @@ RM = "C:\Program Files\JetBrains\CLion 2020.2\bin\cmake\win\bin\cmake.exe" -E rm
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\deine\Desktop\Proyectos_C++_CLion\untitled4
+CMAKE_SOURCE_DIR = C:\Users\deine\Desktop\Proyectos_C++_CLion\App1Borrador
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\deine\Desktop\Proyectos_C++_CLion\untitled4\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\deine\Desktop\Proyectos_C++_CLion\App1Borrador\cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -93,14 +93,14 @@ clean: CMakeFiles/untitled4.dir/clean
 CMakeFiles/untitled4.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled4.dir\build.make CMakeFiles/untitled4.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled4.dir\build.make CMakeFiles/untitled4.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\deine\Desktop\Proyectos_C++_CLion\untitled4\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16 "Built target untitled4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\deine\Desktop\Proyectos_C++_CLion\App1Borrador\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 "Built target untitled4"
 .PHONY : CMakeFiles/untitled4.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/untitled4.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\deine\Desktop\Proyectos_C++_CLion\untitled4\cmake-build-debug\CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\deine\Desktop\Proyectos_C++_CLion\App1Borrador\cmake-build-debug\CMakeFiles 17
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/untitled4.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\deine\Desktop\Proyectos_C++_CLion\untitled4\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\deine\Desktop\Proyectos_C++_CLion\App1Borrador\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/untitled4.dir/rule
 
 # Convenience name for target.

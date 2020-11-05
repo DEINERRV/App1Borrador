@@ -10,6 +10,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/untitled4.dir/ILoad.cpp.obj"
   "CMakeFiles/untitled4.dir/ISave.cpp.obj"
   "CMakeFiles/untitled4.dir/JSON.cpp.obj"
+  "CMakeFiles/untitled4.dir/Menu.cpp.obj"
   "CMakeFiles/untitled4.dir/Paciente.cpp.obj"
   "CMakeFiles/untitled4.dir/PacienteAnalizado.cpp.obj"
   "CMakeFiles/untitled4.dir/PacienteAnalizadoManager.cpp.obj"

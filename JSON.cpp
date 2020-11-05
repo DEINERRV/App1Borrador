@@ -32,13 +32,20 @@ void from_json(const json &_json, PacienteAnalizado &_paciente) {
 vector<PacienteAnalizado> JSON::Load() {
     ifstream archivo;
 
-    try { archivo.open("C:\\Users\\deine\\Desktop\\Proyectos_C++_CLion\\progra2-project-02-delta\\cmake-build-debug-mingw\\src\\datos_geneticos.json", ios::binary); }
+    try {
+        archivo.open("C:\\Users\\eine\\Desktop\\Proyectos_C++_CLion\\progra2-project-02-delta\\cmake-build-debug-mingw\\src\\datos_geneticos.json", ios::binary);
+        if(!archivo.good()){
+            throw "no se pudo abrir el archivo";
+        }
+    }
 
     catch (ifstream::failure a) {
         cout << "no se pudo abrir el archivo";
         exit(1);
     }
-
+    catch (const char* a) {
+        throw a;
+    }
     string datos;
 
     stringstream buffer;

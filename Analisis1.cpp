@@ -8,12 +8,13 @@ string Analisis1::analisis(PacienteAnalizado paciente,vector<PacienteAnalizado> 
         Aux(enfermedades,aux);
     }
 
+    stringstream s;
     for(EnfermedadPacientes aux : enfermedades){
-        cout<<aux.toString()<<endl;
+        s<<aux.toString()<<endl;
     }
 
-    cout<<enfermedades.size();
-    return "AA";
+    return s.str();
+
 }
 
 
@@ -21,7 +22,9 @@ void Analisis1::Aux(vector<EnfermedadPacientes> &enfermedades, PacienteAnalizado
     for(EnfermedadConteo auxE : paciente.getEnfermedades()){
         int bandera=0;
         for(int i=0;i<enfermedades.size();i++){
-            if(auxE.enfermedad.getAdn()==enfermedades[i].getEnfemedad().enfermedad.getAdn()){
+            string x=auxE.enfermedad.getAdn();
+            string y=enfermedades[i].getEnfemedad().enfermedad.getAdn();
+            if(x==y){
                 enfermedades[i].getPacientes().push_back(paciente.getPaciente());
                 enfermedades[i].getEnfemedad().cantidad++;
                 bandera=1;

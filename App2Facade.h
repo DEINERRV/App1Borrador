@@ -16,12 +16,16 @@ private:
 public:
     App2Facade();
 
-    void CargarPacientes(ILoad*);
-    void GuardarPacientes(ISave*);
+    void cargarPacientes(ILoad*);
+    void guardarPacientes(ISave*);
 
-    string analisis(int);
+    string analisis(int,PacienteAnalizado);
 
     Analisis* crearAnalisis(int);
+
+    string mostrarPacientes();
+
+    PacienteAnalizado buscarPaciente(string);
 };
 
 
